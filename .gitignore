@@ -1,0 +1,21 @@
+# Virtual environment
+Include/
+Lib/
+Scripts/
+var/
+pyvenv.cfg
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+
+*.db
+*.sqlite
+*.sqlite3
