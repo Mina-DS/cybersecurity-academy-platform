@@ -9,7 +9,7 @@ from flask_mail import Mail
 
 app = Flask(__name__)
 
-app.config["SECRET_KEY"] = "SECRET_KEY_HERE"
+app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY")
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
